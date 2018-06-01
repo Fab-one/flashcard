@@ -6,5 +6,5 @@ var randomDutch = wordPairs[Math.floor(Math.random() * wordPairs.length)];
 document.write(randomDutch[0]);
 
 function answerEnglish(){
-  document.write(randomDutch[1]);
+  document.getElementById("englishWord").innerHTML = randomDutch[1];
 }
