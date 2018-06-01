@@ -2,18 +2,21 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>flashcard</title>
   </head>
-  <h1> Flashcard Dutch to English</h1>
+
   <body>
     <script src="flashcard.js" charset="utf-8"></script>
-    <div id ="dutchWord">
-    </div>
-      <input id = "userAnswer" type = "text"/>​</input>
-      <input type="button" value="Answer" OnClick="answerEnglish()" ></input>
-      <div id ="englishWord">
-      This is where the English translation goes
-    </div> <br> <br>
+    <div id = "maindiv">
+      <h1> Flashcard Dutch to English</h1>
+        <div id ="dutchWord"></div>
+        <input id = "userAnswer" type = "text">​</input>
+        <input type="button" value="Answer" OnClick="answerEnglish()" ></input>
+        <div id ="englishWord">
+          This is where the English translation goes
+        </div> <br> <br>
       <input type="button" value="Continue" OnClick="window.location.reload()" ></input>
+    </div>
   </body>
 </html>

@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  font-family: arial;
+}
+
+h1 {
+  font-family: arial;
+}
+
+#maindiv {
+  font-size: 150%;
+  font-family: arial;
+  margin: auto;
+  padding-left: 300px;
+}
